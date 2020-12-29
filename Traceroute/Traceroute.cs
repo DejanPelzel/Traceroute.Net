@@ -13,7 +13,7 @@ namespace System.Net
     {
         private static Random _random = new Random();
 
-        public static IEnumerable<TracerouteHop> GetTraceRoute(string hostname, int timeout = 5000, int pings = 5, int maxTTL = 30, CancellationToken cancellationToken = default(CancellationToken))
+        public static async IAsyncEnumerable<TracerouteHop> GetTraceRouteAsync(string hostname, int timeout = 5000, int pings = 5, int maxTTL = 30, CancellationToken cancellationToken = default(CancellationToken))
         {
             const int bufferSize = 32;
 
@@ -39,7 +39,7 @@ namespace System.Net
                     {
                         sw.Restart();
                         PingOptions options = new PingOptions(ttl, true);
-                        reply = pinger.Send(hostname, timeout, buffer, options);
+                        reply = await pinger.SendPingAsync(hostname, timeout, buffer, options);
 
                         // if we reach a status other than expired or timed out, we're done searching or there has been an error
                         if (cancellationToken.IsCancellationRequested || (reply.Status != IPStatus.TtlExpired && reply.Status != IPStatus.TimedOut))

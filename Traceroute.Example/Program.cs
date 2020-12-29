@@ -11,7 +11,7 @@ namespace TracerouteExample
             Task.Run(async () =>
             {
                 Console.WriteLine(Traceroute.GetHeader());
-                foreach (var hop in Traceroute.GetTraceRoute("google.com"))
+                await foreach (var hop in Traceroute.GetTraceRouteAsync("google.com"))
                 {
                     Console.WriteLine(hop.ToString());
                 }
