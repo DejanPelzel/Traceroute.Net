@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traceroute", "Traceroute\Traceroute.csproj", "{63765459-1D84-485A-9B6F-D7425BBE08FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traceroute.Example", "Traceroute.Example\Traceroute.Example.csproj", "{D5D46FFA-750E-4596-8880-F7218E362EEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63765459-1D84-485A-9B6F-D7425BBE08FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63765459-1D84-485A-9B6F-D7425BBE08FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63765459-1D84-485A-9B6F-D7425BBE08FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63765459-1D84-485A-9B6F-D7425BBE08FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D46FFA-750E-4596-8880-F7218E362EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D46FFA-750E-4596-8880-F7218E362EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D46FFA-750E-4596-8880-F7218E362EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D46FFA-750E-4596-8880-F7218E362EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8412B85D-D284-4533-AE0E-925B6291D3FE}
+	EndGlobalSection
+EndGlobal
