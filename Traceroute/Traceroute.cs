@@ -7,7 +7,7 @@ using System.Net.NetworkInformation;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Traceroute
+namespace System.Net
 {
     public class Traceroute
     {

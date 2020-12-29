@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traceroute", "Traceroute\Traceroute.csproj", "{63765459-1D84-485A-9B6F-D7425BBE08FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traceroute", "Traceroute\Traceroute.csproj", "{63765459-1D84-485A-9B6F-D7425BBE08FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traceroute.Example", "Traceroute.Example\Traceroute.Example.csproj", "{D5D46FFA-750E-4596-8880-F7218E362EEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TracerouteExample", "Traceroute.Example\TracerouteExample.csproj", "{D5D46FFA-750E-4596-8880-F7218E362EEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

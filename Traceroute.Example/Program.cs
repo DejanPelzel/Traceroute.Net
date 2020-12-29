@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
+using System.Net;
 
-namespace Traceroute.Example
+namespace TracerouteExample
 {
     class Program
     {
